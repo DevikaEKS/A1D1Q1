@@ -12,54 +12,15 @@ function App() {
   });
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    const formData = new FormData(e.target);
+    
 
-    // Regex validation
-    const nameRegex = /^[a-zA-Z .]{2,}$/;
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const phoneRegex = /^[0-9]{10}$/;
-    const locationRegex = /^[a-zA-Z0-9 ,.-]{2,}$/;
-
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const phone = formData.get('phone');
-    const location = formData.get('location');
-    const imageFile = formData.get('image');
-
-    if (!nameRegex.test(name)) {
-      alert('Invalid name. Use at least 2 letters. Dots and spaces allowed.');
-      return;
-    }
-    if (!emailRegex.test(email)) {
-      alert('Invalid email format.');
-      return;
-    }
-    if (!phoneRegex.test(phone)) {
-      alert('Phone number must be 10 digits.');
-      return;
-    }
-    if (!locationRegex.test(location)) {
-      alert('Invalid location format.');
-      return;
-    }
-
-    const imageURL = imageFile ? URL.createObjectURL(imageFile) : '';
-
-    setPersonalInfo({
-      name,
-      email,
-      phone,
-      location,
-      image: imageURL
-    });
-    setShowForm(false);
+   
   };
 
   return (
     <div className='fullpart'>
       <div className="buttonpart">
-        <button onClick={() => setShowForm()} className='profilebutton'>
+        <button onClick={() => setShowForm(true)} className='profilebutton'>
           Add Personal Info
         </button>
       </div>
