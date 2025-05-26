@@ -1,0 +1,17 @@
+| Area                     | Selector        | CSS Property       | Expected Value |
+|--------------------------|-----------------|--------------------|----------------|
+| Card Background | .backgroundpart | padding | 20px |
+| Card Layout | .backgroundpart | display | flex |
+| Card Alignment (Horizontal) | .backgroundpart | justify-content | center |
+| Card Alignment (Vertical) | .backgroundpart | align-items | center |
+| Card Rounded Corners | .contentcard | border-radius | 15px |
+| Card Padding | .contentcard | padding | 30px 20px |
+| Card Max Width | .contentcard | max-width | 400px |
+| Card Text Alignment | .contentcard | text-align | center |
+| Card Background Color | .contentcard | background-color | #e6f9fc |
+| Profile Picture Width | .profile-pic | width | 100px |
+| Profile Picture Height | .profile-pic | height | 100px |
+| Profile Picture Style | .profile-pic | border-radius | 50% |
+| Domain Badge Size | .gift-img | width | 80px |
+| Page Background Image | .backgroundpart | background-size | cover |
+| Button | .buttonpart | justify-content | end |
