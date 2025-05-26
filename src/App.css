@@ -67,18 +67,16 @@ body{
     justify-content: end;
     align-items: center;
 }
- .profile-pic {
-   
+ .profile-pic { 
     object-fit: cover;
     margin-bottom: 10px;
   }
 
 .backgroundpart {
-     background-size: cover;    
+   
   }
   
   .contentcard {
-    background-color: #e6f9fc; 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 
@@ -104,7 +102,6 @@ body{
   }
   .gift-img {
     margin-top: 20px;
-    width: 80px;
   }
 
   .buttonpart{
