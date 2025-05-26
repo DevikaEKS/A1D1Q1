@@ -59,7 +59,7 @@ function App() {
   return (
     <div className='fullpart'>
       <div className="buttonpart">
-        <button onClick={() => setShowForm(true)} className='profilebutton'>
+        <button onClick={() => setShowForm()} className='profilebutton'>
           Add Personal Info
         </button>
       </div>
