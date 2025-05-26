@@ -77,13 +77,11 @@ body{
      background-size: cover;    
   }
   
-
   .contentcard {
     background-color: #e6f9fc; 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
-  
-  /* Heading */
+
   .congratshead {
     font-size: 24px;
     font-weight: bold;
